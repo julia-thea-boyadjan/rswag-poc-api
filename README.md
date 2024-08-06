@@ -1,3 +1,4 @@
+Steps to setup project with RSwag & Swagger:
 1. Add rswag gem to Gemfile
 2. Execute `rails g rswag:install`
 3. Generate the shell for the rswag controller spec: 
