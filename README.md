@@ -3,7 +3,7 @@ Steps to setup project with RSwag & Swagger:
 2. Execute `rails g rswag:install`
 3. Generate the shell for the rswag controller spec: 
 4. Generate rswag spec file for a specific controller: `rails generate rspec:swagger API::{ControllerName}Controller`
-5. Navigate to specs/requests/api to view the generated spec file.
+5. Navigate to `specs/requests/api` to view the generated spec file.
 6. Write rswag specs
 7. Verify your rswag spec is passing `bundle exec rspec`
 8. Run `rake rswag` to swaggerize the specs
