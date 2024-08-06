@@ -7,5 +7,6 @@ Steps to setup project with RSwag & Swagger:
 6. Verify your rswag spec is passing `bundle exec rspec`
 7. Run `rake rswag` to swaggerize the specs
 8. Start rails server `rails s`
-9. Navigate to http://localhost:3000/api-docs/index.html to view Swagger UI
+9. Navigate to http://localhost:{port}/api-docs/index.html to view Swagger UI
 
+RSwag gem docs: https://github.com/rswag/rswag
